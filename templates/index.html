@@ -1,0 +1,35 @@
+  <main id="main" class="container">
+    <!-- Generated from content/profile.yaml. Edit YAML, not docs/index.html. -->
+    <section id="home" class="hero" aria-labelledby="home-title">
+      $home
+      $portrait
+    </section>
+
+    <!-- Research text comes from content/research.yaml. -->
+    <section id="research" class="section-layout" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">$research_heading</h2></div>
+      <div class="section-body research-statement">$research_intro
+        <div class="theme-grid">$research_themes</div>
+        <p class="methods-line"><strong>Methods:</strong> $research_methods</p></div>
+    </section>
+
+    <section id="publications" class="section-layout" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Selected Publications</h2></div>
+      <div class="section-body">$publications<a class="all-publications" href="publications.html">View all publications →</a></div>
+    </section>
+
+    <section id="experience" class="section-layout" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">Experience</p><h2 id="experience-title">Academic<br>background</h2></div>
+      <div class="section-body">$experience</div>
+    </section>
+
+    <section id="cv" class="section-layout" aria-labelledby="cv-title">
+      <div class="section-heading"><p class="eyebrow">Curriculum vitae</p><h2 id="cv-title">Full academic CV</h2></div>
+      <div class="section-body cv-panel"><p>$cv_description</p><div class="cv-actions"><a class="button" href="$cv_file">Open CV <span class="file-type">PDF</span></a><a href="$cv_file" download>Download PDF</a></div></div>
+    </section>
+
+    <section id="contact" class="section-layout contact-section" aria-labelledby="contact-title">
+      <div class="section-heading"><p class="eyebrow">Contact</p><h2 id="contact-title">Get in touch</h2></div>
+      <div class="section-body">$contact</div>
+    </section>
+  </main>

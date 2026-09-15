@@ -1,0 +1,26 @@
+# RESEARCH: edit the introduction, themes, or methods here, then run python build.py.
+heading: Research
+intro: >-
+  I examine how agricultural structural conditions, defined here as the organization 
+  and distribution of resources, demographic composition, and institutional and policy 
+  contexts across scales, shape agricultural sustainability and climate resilience.
+themes:
+  - title: Agricultural structure & resource use
+    description: >-
+      How farm and household characteristics shape access to and use of
+      nitrogen, water, and land.
+  - title: Climate resilience & adaptation
+    description: >-
+      How structural conditions influence climate impacts and farms’
+      capacity to respond and adapt.
+  - title: Enabling system-level change
+    description: >-
+       How land organization, resource coordination, and targeted policy
+       interventions can relax structural constraints and improve
+       sustainability and climate resilience.
+# Use a list; the build separates methods with centered dots.
+methods:
+  - Econometric modelling
+  - Causal inference
+  - Geospatial analysis
+  - Remote sensing

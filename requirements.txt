@@ -1,0 +1,2 @@
+# The static-site builder's only dependency (one-time installation).
+PyYAML>=6.0,<7.0

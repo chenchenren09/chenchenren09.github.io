@@ -1,0 +1,10 @@
+# Keep the original CV and local working environments out of the site repository.
+*.docx
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+# docs/ is intentionally tracked: GitHub Pages serves this generated folder.
+
+# Keep the supplied root-level source PDF local; deployed PDFs live under assets/.
+/Curriculum vitae_Chenchen Ren.pdf

@@ -1,0 +1,55 @@
+# YOUR NAME AND AFFILIATION: edit these fields, then run python build.py.
+# The CV lists Bonn as INCOMING, starting 15 November 2026.
+# Update both appointment and appointment_detail when the position begins.
+name: Chenchen Ren
+degree: Ph.D.
+pronouns: she/her
+appointment: Incoming Postdoctoral Researcher
+appointment_detail: University of Bonn · From 15 November 2026
+research_label: Agricultural sustainability & climate resilience
+intro: >-
+  I study how agricultural structure shapes resource use, sustainability, and climate resilience.
+# Supporting sentence retained for future reuse; not rendered in the homepage hero.
+about: >-
+  My work examines how farm structure, resource access, socioeconomic conditions, 
+  and institutions shape the use of nitrogen, water, and land across agricultural systems. 
+# Search-engine description: update this when your affiliation or focus changes.
+meta_description: >-
+  Chenchen Ren, Ph.D. Research on agricultural sustainability, resource use,
+  food systems, and climate resilience. Incoming Postdoctoral Researcher at
+  the University of Bonn from 15 November 2026.
+
+# CONTACT: use null for genuinely missing information; never invent a URL.
+email: chenchenren05@gmail.com
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com.hk/citations?user=EfBHWZYAAAAJ
+    show_on_home: true
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/chenchenren-5313602a8 # Matched Carnegie Science and publications.
+    show_on_home: true
+  - label: Institutional profile
+    url: null # Add your institutional profile URL when available.
+    show_on_home: false
+
+# PHOTO: put the file in assets/images, then enter its relative path here.
+# Example: file: assets/images/chenchen-ren.jpg
+# A null file omits the portrait without showing an unfinished placeholder.
+photo:
+  file: assets/images/chenchen-ren.jpg
+  alt: Portrait of Chenchen Ren
+  initials: CR
+
+# CV: put a new PDF in assets/files and change the path here.
+# Use a new filename to retain the previous PDF as a backup.
+cv:
+  file: assets/files/chenchen-ren-cv-2026-09-14.pdf
+  description: >-
+    Academic appointments, publications, teaching and mentorship, grants,
+    professional service, and awards.
+
+# PUBLIC SITE URL: set after deployment, including any repository subpath.
+# Example format: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
+# Null omits canonical URLs and absolute sharing images until a real URL is known.
+site_url: https://chenchenren09.github.io/
+favicon: assets/images/favicon.svg

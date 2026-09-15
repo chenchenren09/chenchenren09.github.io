@@ -1,0 +1,82 @@
+# APPOINTMENTS: add entries in the order you want them displayed (newest first).
+# Dates are text; keep them quoted. Do not replace an incoming role with a
+# current role until it has actually begun.
+appointments:
+  - dates: From 15 Nov 2026
+    title: Incoming Postdoctoral Researcher
+    institution: University of Bonn, Germany
+  - dates: "2023–2026"
+    title: Postdoctoral Fellow
+    institution: Carnegie Science · Stanford, CA, USA
+
+# EDUCATION: copy an entire entry if you need another degree.
+education:
+  - dates: "2019–2023"
+    title: Ph.D., Land Resource Management
+    institution: Zhejiang University, China
+  - dates: "2017–2019"
+    title: Master’s, Land Resource Management
+    institution: Zhejiang University, China
+  - dates: "2013–2017"
+    title: Bachelor’s, Land Resource Management
+    institution: Shandong Agricultural University, China
+
+# TEACHING / MENTORING: description is optional. Update "present" when needed.
+# Carnegie mentorship is "2023-now" in the CV; the appointment is "2023–2026".
+teaching:
+  - dates: "2023–present"
+    title: Mentor
+    institution: Carnegie Science
+    description: >-
+      Mentoring undergraduate students studying the impacts of irrigation
+      water and climate change on crop and livestock production.
+  - dates: "2019–2023"
+    title: Mentor
+    institution: Zhejiang University
+    description: >-
+      Guided graduate and undergraduate research on climate change,
+      population dynamics, policy changes, nitrogen pollution,
+      and agricultural sustainability.
+  - dates: "2018"
+    title: Teaching Assistant
+    institution: Zhejiang University
+    description: Simulation Principles of Terrestrial Ecosystem Ecology.
+  - dates: "2014–2018"
+    title: Volunteer Mathematics Instructor
+    institution: China and Indonesia
+    description: Mathematics teaching in diverse learning environments.
+
+# PROFESSIONAL SERVICE: null dates are omitted, not guessed.
+service:
+  - title: Editorial board member
+    organization: Communications Sustainability; Earth Critical Zone
+    dates: null
+  - title: Research Fellow
+    organization: International Nitrogen Network (iN-Net)
+    dates: "2026–present"
+  - title: Working group member
+    organization: Nitrogen and Climate Working Group, iN-Net
+    dates: null
+  - title: Session Convener
+    organization: AGU Fall Meeting 2024, Washington, D.C.
+    dates: "2024"
+
+# REVIEWING: retained for reference only; not rendered on either public page.
+reviewer_journals:
+  - Nature
+  - Nature Food
+  - Nature Communications
+  - Proceedings of the National Academy of Sciences (PNAS)
+  - Earth Future
+  - Communications Earth & Environment
+  - Journal of Environmental Management
+  - Land Use Policy
+  - International Journal of Agricultural Sustainability
+  - Environmental Research
+
+# HOMEPAGE SUMMARY: detailed teaching/reviewing records above stay in source and CV.
+# No ongoing mentoring dates are inferred from the appointment date range.
+mentoring_summary: >-
+  My mentoring experience at Carnegie Science and Zhejiang University includes
+  undergraduate and graduate research on climate change, resource management,
+  and agricultural sustainability.

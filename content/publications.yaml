@@ -1,0 +1,283 @@
+# SELECTED PAPERS: selected_order: 1, 2, ... controls homepage selection and order.
+# Omit selected_order (or use null) for full-list-only entries. Keep ranks unique.
+# ADD A PUBLICATION: copy one entire entry beginning with "- status:".
+# Status: published, accepted, or working. Accepted papers get their own section.
+# Use year: null for undated work. Preserve the author order from the source.
+# Put Ren, C. in the author string; the build highlights this name automatically.
+# Set co_first_author: true only when the source confirms equal contribution.
+# Paper DOI links verified from Crossref/publisher records; see LINK_CHECKS.md.
+# url: null means no paper link. visible: false hides an entry without deleting it.
+# YAML strings containing a colon followed by a space must be quoted.
+# List order within each year is preserved; years are displayed newest first.
+publications:
+- status: published
+  year: 2026
+  title: Climate change and interprovincial trade move grain production and environmental burdens northwards in
+    China
+  authors: Wang, C., Zhang, X., Ren, C., Xuan, X., Cheng, L., Zou, Y., Xu, J., Gu, B.
+  journal: Nature Food
+  details: 7, 565–576
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-026-01373-6
+- status: published
+  selected_order: 7
+  year: 2026
+  title: Cost-competitiveness of irrigation and nutrient management strategies for closing global yield gaps
+  authors: Ren, C., Rosa, L.
+  journal: Environmental Research Letters
+  details: 21, 104005
+  co_first_author: false
+  url: https://doi.org/10.1088/1748-9326/ae6710
+- status: published
+  year: 2026
+  title: Integrated climate effects on nitrogen cycles in global grasslands
+  authors: Zheng M., Cui, J., Cheng, L., Wang S., Wang X., Xu X., Zhang, X., Wang, C., Ren, C., Gu, B.
+  journal: Science Advances
+  details: 12, eaec5940
+  co_first_author: false
+  url: https://doi.org/10.1126/sciadv.aec5940
+- status: published
+  year: 2026
+  title: Managing livestock farm size to reduce nitrogen loss in China
+  authors: Cheng, L., Zhang, X., Zhu, Z., Ren, C., Wang, C., Reis, S., Gu, B.
+  journal: Resources, Environment and Sustainability
+  details: 25, 100330
+  co_first_author: false
+  url: https://doi.org/10.1016/j.resenv.2026.100330
+- status: published
+  year: 2026
+  title: Reclaiming abandoned croplands to adapt wheat production to a warmer world
+  authors: He, L., Ren, C., Rosa, L.
+  journal: Communications Earth & Environment
+  details: 7, 392
+  co_first_author: false
+  url: https://doi.org/10.1038/s43247-026-03386-2
+- status: published
+  selected_order: 8
+  year: 2025
+  title: Inequality of global crop diversity changes driven by socioeconomic factors
+  authors: Gong, X., Ren, C., Wang, C., Gu, B.
+  journal: Science Bulletin
+  details: 70, 4230-4240
+  co_first_author: true
+  url: https://doi.org/10.1016/j.scib.2025.11.033
+- status: published
+  year: 2025
+  title: Global energy and emissions of irrigation and fertilizers management for closing crop yield gaps
+  authors: Ren, C., Rosa, L.
+  journal: Environmental Research Letters
+  details: 20, 104026
+  co_first_author: false
+  url: https://doi.org/10.1088/1748-9326/adfbfd
+- status: published
+  year: 2025
+  title: Soil health contributes to variations in crop production and nitrogen use efficiency
+  authors: Xu, J., Ren, C., Zhang, X., Wang, C., Wang, S., Ma, B., He, Y., Hu, L., Liu, X., Zhang, F., Lu, L., Li,
+    S., Zhang, J., Zhu, Y., Vitousek, P., Gu, B.
+  journal: Nature Food
+  details: 6, 597–609
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-025-01155-6
+- status: published
+  selected_order: 2
+  year: 2025
+  title: Integrated irrigation and nitrogen optimization is a resource-efficient adaptation strategy for US maize
+    and soybean production
+  authors: Ren, C., He, L., Rosa, L.
+  journal: Nature Food
+  details: 6, 389–400
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-024-01107-6
+- status: published
+  year: 2025
+  title: Adaptive Mitigation of Warming-Induced Food Crisis and Nitrogen Pollution
+  authors: Cui, J., Gao Y., van Grinsven, H., Zheng M., Zhang X., Ren, C., Ma. T., Xu, J., Gu, B.
+  journal: Environmental Science & Technology
+  details: 59, 3527-3536
+  co_first_author: false
+  url: https://doi.org/10.1021/acs.est.4c05531
+- status: published
+  year: 2025
+  title: Advancing Corn Yield Mapping in Kenya Through Transfer Learning
+  authors: Bohra, A., Nottmeyer, S., Ren, C., Chen, S., Ma, Y.
+  journal: Remote Sensing
+  details: 17, 1717
+  co_first_author: false
+  url: https://doi.org/10.3390/rs17101717
+- status: published
+  year: 2024
+  title: Trade-offs in agricultural outcomes across various farm sizes
+  authors: Ren, C., He, L., Ma, Y., Reis, S., van Grinsven, H., Lam, S., Rosa, L.
+  journal: Earth Critical Zone
+  details: 1, 100007
+  co_first_author: false
+  url: https://doi.org/10.1016/j.ecz.2024.100007
+- status: published
+  year: 2024
+  title: Agricultural management practices in China enhance nitrogen sustainability and benefit human health
+  authors: Duan, J., Liu, H., Zhang, X., Ren, C., Wang, C., Cheng, L., Xu, J., Gu, B.
+  journal: Nature Food
+  details: 5, 378–389
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-024-00953-8
+- status: published
+  selected_order: 1
+  year: 2023
+  title: Aging threatens sustainability of smallholder farming in China
+  authors: Ren, C., Zhou, X., Wang C., Guo Y., Diao Y., Shen S., Reis, S., Li, W., Xu, J., Gu, B.
+  journal: Nature
+  details: 616, 96–103
+  co_first_author: false
+  url: https://doi.org/10.1038/s41586-023-05738-w
+- status: published
+  selected_order: 3
+  year: 2023
+  title: Climate change unequally affects nitrogen use and losses in global croplands
+  authors: Ren, C., Zhang, X., Reis, S., Wang, S., Jin, J., Xu, J., Gu, B.
+  journal: Nature Food
+  details: 4, 294–304
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-023-00730-z
+- status: published
+  year: 2023
+  title: Driving forces of nitrogen use efficiency in Chinese croplands on county scale
+  authors: Chen, B., Ren, C., Wang, C., Duan, J., Reis, S., Gu, B.
+  journal: Environmental Pollution
+  details: 316, 120610
+  co_first_author: false
+  url: https://doi.org/10.1016/j.envpol.2022.120610
+- status: published
+  year: 2023
+  title: Cost-effective mitigation of nitrogen pollution from global croplands
+  authors: Gu, B., Zhang, X., Lam, S.K., Yu, Y., van Grinsven, H.J.M., Zhang, S., Wang, X., Bodirsky, B.L., Wang,
+    S., Duan, J., Ren, C., Bouwman, L., de Vries, W., Xu, J., Sutton, M.A., Chen, D.
+  journal: Nature
+  details: 613, 77–84
+  co_first_author: false
+  url: https://doi.org/10.1038/s41586-022-05481-8
+- status: published
+  selected_order: 4
+  year: 2022
+  title: Socioeconomic barriers of nitrogen management for agricultural and environmental sustainability
+  authors: Ren, C., Zhang, X., Reis, S., Gu, B.
+  journal: Agriculture, Ecosystems & Environment
+  details: 333, 107950
+  co_first_author: false
+  url: https://doi.org/10.1016/j.agee.2022.107950
+- status: published
+  year: 2022
+  title: Ammonia emissions from croplands decrease with farm size in China
+  authors: Wang, C., Duan, J., Ren, C., Liu H., Reis, S., Jin, J., Xu, J., Gu, B.
+  journal: Environmental Science & Technology
+  details: 56, 9915–9923
+  co_first_author: false
+  url: https://doi.org/10.1021/acs.est.2c01061
+- status: published
+  year: 2022
+  title: A 12% switch from monogastric to ruminant livestock production can reduce emissions and boost crop production
+    for 525 million people
+  authors: Cheng, L., Zhang, X., Reis, S., Ren, C., Xu, J., Gu, B.
+  journal: Nature Food
+  details: 3, 1040-1051
+  co_first_author: false
+  url: https://doi.org/10.1038/s43016-022-00661-1
+- status: published
+  year: 2022
+  title: Nitrogen emissions from livestock production driven by climate and socioeconomic factors
+  authors: Cheng, L., Ren, C., Zhang, X., Gu, B.
+  journal: Journal of Agricultural Resources and Environment
+  details: 39, 510-519
+  co_first_author: false
+  url: https://doi.org/10.13254/j.jare.2022.0168
+- status: published
+  selected_order: 5
+  year: 2021
+  title: Consolidation of agricultural land can contribute to agricultural sustainability in China
+  authors: Duan, J., Ren, C., Wang, S., Zhang, X., Reis, S., Xu, J., Gu, B.
+  journal: Nature Food
+  details: 2, 1014-1022
+  co_first_author: true
+  url: https://doi.org/10.1038/s43016-021-00415-5
+- status: published
+  year: 2021
+  title: Fertilizer overuse in Chinese smallholders due to lack of fixed inputs
+  authors: Ren, C., Jin, S., Wu, Y., Zhang, B., Kanter, D., Wu, B., Xi, X., Zhang, X., Chen, D., Xu, J., Gu, B.
+  journal: Journal of Environmental Management
+  details: 293, 112913
+  co_first_author: false
+  url: https://doi.org/10.1016/j.jenvman.2021.112913
+- status: published
+  year: 2021
+  title: Uncertainty of nitrogen budget in China
+  authors: Zhang, X., Ren, C., Gu, B., Chen, D.
+  journal: Environmental Pollution
+  details: 286, 117216
+  co_first_author: false
+  url: https://doi.org/10.1016/j.envpol.2021.117216
+- status: published
+  year: 2021
+  title: An empirical model to estimate ammonia emission from cropland fertilization in China
+  authors: Wang, C., Cheng, K., Ren, C., Liu, H., Sun, J., Reis, S., Yin, S., Xu, J., Gu, B.
+  journal: Environmental Pollution
+  details: 288, 117982
+  co_first_author: false
+  url: https://doi.org/10.1016/j.envpol.2021.117982
+- status: published
+  year: 2021
+  title: Human-caused increases in reactive nitrogen burial in sediment of global lakes
+  authors: Wang, M., Houlton, B.Z., Wang, S., Ren, C., van Grinsven, H., Chen, D., Xu, J., Gu, B.
+  journal: Innovation
+  details: 2, 100158
+  co_first_author: false
+  url: https://doi.org/10.1016/j.xinn.2021.100158
+- status: published
+  year: 2021
+  title: Decoupling livestock and crop production at the household level in China
+  authors: Jin, S., Zhang, B., Wu, B., Han, D., Hu, Y., Ren, C., Zhang, C., Wei, X., Wu, Y., Mol, A.P.J., Reis,
+    S., Gu, B., Chen, J.
+  journal: Nature Sustainability
+  details: 4, 48-55
+  co_first_author: false
+  url: https://doi.org/10.1038/s41893-020-00596-0
+- status: published
+  year: 2021
+  title: Abating ammonia is more cost-effective than nitrogen oxides for mitigating PM2.5 air pollution
+  authors: Gu, B., Zhang, L., Van Dingenen, R., Vieno, M., Van Grinsven, H.J., Zhang, X., Zhang, S., Chen, Y., Wang,
+    S., Ren, C., Rao, S., Holland, M., Winiwarter, W., Chen, D., Xu, J., Sutton, M.A.
+  journal: Science
+  details: 374, 758-762
+  co_first_author: false
+  url: https://doi.org/10.1126/science.abf8623
+- status: published
+  year: 2021
+  title: Large-scale farming promotes agricultural green development in China
+  authors: Gu, B., Duan, J., Ren, C., Wang, S., Wang, C.
+  journal: Journal of Agricultural Resources and Environment
+  details: 38, 709-715
+  co_first_author: false
+  url: https://doi.org/10.13254/j.jare.2021.0377
+- status: published
+  selected_order: 6
+  year: 2019
+  title: The impact of farm size on agricultural sustainability
+  authors: Ren, C., Liu, S., van Grinsven, H., Reis, S., Jin, S., Liu, H., Gu, B.
+  journal: Journal of Cleaner Production
+  details: 220, 357-367
+  co_first_author: false
+  url: https://doi.org/10.1016/j.jclepro.2019.02.151
+- status: working
+  visible: false # Hidden from the website at your request; retained only in source.
+  year: null
+  title: The role of crop diversity in agricultural nitrogen sustainability
+  authors: Ren, C., Gong, X., Zhu, Y. Gu, B.
+  note: Under review
+  co_first_author: false
+  url: null
+- status: working
+  visible: false # Hidden from the website at your request; retained only in source.
+  year: null
+  title: Agricultural inputs reshape food self-sufficiency of nations
+  authors: Ren, C., Davis, F. K., Rosa, L.
+  note: Under review
+  co_first_author: false
+  url: null
