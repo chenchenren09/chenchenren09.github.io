@@ -74,9 +74,9 @@ Edit `content/profile.yaml`:
 - `about`: optional text retained for future reuse; not rendered in the homepage hero.
 - `meta_description`: search and sharing description.
 
-For an appointment change, also update the corresponding history in `content/experience.yaml`. The profile and history are separate, explicit fields. The build never silently converts an incoming role into a current role.
+For an appointment change, also update the corresponding history in `content/experience.yaml`. The profile and history are separate, explicit fields.
 
-Source dates currently say Carnegie Science appointment **2023–2026**, Carnegie mentoring **2023–now**, and iN-Net Research Fellow **2026–present**. Bonn is **incoming from 15 November 2026**. The mentoring summary does not assert that mentoring is ongoing. See `SOURCES.md` before changing dates.
+Current dates say University of Bonn **November 2026–present**, Carnegie Science appointment **2023–2026**, Carnegie mentoring **2023–present**, and iN-Net Research Fellow **2026–present**. The mentoring summary does not assert that mentoring is ongoing. See `SOURCES.md` before changing dates.
 
 ## Update research
 
@@ -143,7 +143,7 @@ JPEG, PNG, WebP, and AVIF are supported. The portrait uses a 4:5 display crop; `
 3. Update `cv.file` in `content/profile.yaml` and rebuild.
 4. Open the PDF from the preview and review it.
 
-All CV buttons share this path. The current file is an exact copy of your supplied six-page PDF, `assets/files/chenchen-ren-cv-2026-09-14.pdf`. The previous typeset PDF is retained but unlinked. YAML updates do not update the PDF, and CV edits do not overwrite YAML.
+All CV buttons share this path. The current file is `assets/files/chenchen-ren-cv-2026-11-17.pdf`, updated to show the University of Bonn appointment as current. Earlier PDFs are retained but unlinked. YAML updates do not update the PDF, and CV edits do not overwrite YAML.
 
 The optional `scripts/export_cv_pdf.py` can typeset a separate PDF if Word export is unavailable. It requires ReportLab, preserves factual text but not Word’s layout, and refuses to overwrite an existing output. It is not part of routine building:
 
@@ -156,7 +156,7 @@ python scripts/export_cv_pdf.py "Curriculum vitae_Chenchen Ren.docx" assets/file
 
 Edit only `assets/css/style.css` for colors, typography, spacing, and responsive rules. Shared tokens are at the top. The design uses local system fonts and no animation or third-party assets.
 
-The favicon path is configured in `profile.yaml`; the supplied SVG uses your initials. Both pages have distinct titles/descriptions, Open Graph tags, social-card tags, and schema.org Person data based on your profile. Incoming Bonn employment is not encoded as a current `worksFor` affiliation.
+The favicon path is configured in `profile.yaml`; the supplied SVG uses your initials. Both pages have distinct titles/descriptions, Open Graph tags, social-card tags, and schema.org Person data based on your profile.
 
 **After deployment**, set `site_url` to the real public base URL, including any repository path and preferably a trailing slash. For example, replace both placeholders in `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`. Rebuild to enable absolute canonical URLs and portrait images for sharing. While `site_url: null`, those URL-dependent tags are omitted rather than guessed. Text sharing metadata remains present.
 

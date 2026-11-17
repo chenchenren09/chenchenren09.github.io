@@ -1,9 +1,8 @@
 # APPOINTMENTS: add entries in the order you want them displayed (newest first).
-# Dates are text; keep them quoted. Do not replace an incoming role with a
-# current role until it has actually begun.
+# Dates are text; keep them quoted.
 appointments:
-  - dates: From 15 Nov 2026
-    title: Incoming Postdoctoral Researcher
+  - dates: "November 2026–present"
+    title: Postdoctoral Researcher
     institution: University of Bonn, Germany
   - dates: "2023–2026"
     title: Postdoctoral Fellow

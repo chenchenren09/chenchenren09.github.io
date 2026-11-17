@@ -4,7 +4,7 @@
 
 The homepage now presents the agreed research identity, a supporting sentence, three CV-supported research themes, and eight representative publications selected by `selected_order`. All 30 visible published papers are generated separately at `publications.html`; no bibliographic fields or DOI links were changed. Working papers remain hidden. Appointments and education remain prominent, with concise academic service and mentoring. Reviewing and detailed teaching records are not rendered. Both email links now use mailto; missing profile URLs are omitted.
 
-Date audit: the current DOCX, supplied PDF, linked PDF, and YAML agree on Carnegie Science appointment 2023–2026, Carnegie mentoring 2023–now (YAML: 2023–present), iN-Net Research Fellow 2026–present, and incoming Bonn from 15 November 2026. The mentoring end date is unresolved; the public summary avoids asserting ongoing mentoring. These distinct role dates were not silently reconciled.
+Date audit updated on 17 November 2026: University of Bonn is the current appointment from November 2026; Carnegie Science remains 2023–2026; iN-Net Research Fellow remains 2026–present. The Carnegie mentoring end date remains unresolved, so the public summary avoids asserting ongoing mentoring.
 
 Research source wording differs: the current DOCX says “across regions”; the PDF and former research YAML say “across places and social groups.” The approved short introduction uses the sources’ shared structural-conditions framing. Methods use geospatial analysis, explicitly supported by the CV, rather than making a broader methodological claim.
 
@@ -43,7 +43,7 @@ The four research themes are editorial groupings, not claims that these are name
 
 ## Preserved distinctions and missing information
 
-- Bonn is **incoming from 15 November 2026**, not a current appointment as of this build.
+- University of Bonn is the **current appointment from November 2026**.
 - Carnegie Science's appointment is dated **2023–2026**. The separate mentoring entry says **2023-now**, rendered as **2023–present**. The supplied dates have not been reconciled by assumption.
 - All 30 entries in the CV's Publications section are listed as published. No accepted/in-press status was inferred, including for the 2026 entries.
 - The two papers in Working Papers are marked **Under review** without invented years.

@@ -1,11 +1,9 @@
 # YOUR NAME AND AFFILIATION: edit these fields, then run python build.py.
-# The CV lists Bonn as INCOMING, starting 15 November 2026.
-# Update both appointment and appointment_detail when the position begins.
 name: Chenchen Ren
 degree: Ph.D.
 pronouns: she/her
-appointment: Incoming Postdoctoral Researcher
-appointment_detail: University of Bonn · From 15 November 2026
+appointment: Postdoctoral Researcher
+appointment_detail: University of Bonn · Germany
 research_label: Agricultural sustainability & climate resilience
 intro: >-
   I study how agricultural structure shapes resource use, sustainability, and climate resilience.
@@ -16,8 +14,8 @@ about: >-
 # Search-engine description: update this when your affiliation or focus changes.
 meta_description: >-
   Chenchen Ren, Ph.D. Research on agricultural sustainability, resource use,
-  food systems, and climate resilience. Incoming Postdoctoral Researcher at
-  the University of Bonn from 15 November 2026.
+  food systems, and climate resilience. Postdoctoral Researcher at the
+  University of Bonn, Germany.
 
 # CONTACT: use null for genuinely missing information; never invent a URL.
 email: chenchenren05@gmail.com
@@ -43,7 +41,7 @@ photo:
 # CV: put a new PDF in assets/files and change the path here.
 # Use a new filename to retain the previous PDF as a backup.
 cv:
-  file: assets/files/chenchen-ren-cv-2026-09-14.pdf
+  file: assets/files/chenchen-ren-cv-2026-11-17.pdf
   description: >-
     Academic appointments, publications, teaching and mentorship, grants,
     professional service, and awards.
